@@ -1,0 +1,30 @@
+@media screen and (min-width: 640px) {
+
+  /* ------------------------------------------------------ */
+  /* Directory Page */
+  .directory-intro h1 {
+    font-size: 2.5rem;
+  }
+
+  .directory-intro p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+
+  /* ------------------------------------------------------ */
+  /* Footer */
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+
+  .footer-contact {
+    text-align: left;
+  }
+
+  .footer-info {
+    text-align: right;
+  }
+}

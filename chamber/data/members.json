@@ -1,0 +1,85 @@
+{
+  "members": [
+    {
+      "name": "Picantería Tres Volcanes",
+      "address": "Calle Jerusalén 312, Arequipa",
+      "phone": "(054) 284 516",
+      "website": "https://www.tresvolcanes.pe",
+      "image": "tres-volcanes.svg",
+      "membership": 3,
+      "info": "Traditional picantería serving rocoto relleno, adobo and chupe de camarones since 1985."
+    },
+    {
+      "name": "Colca Andes Expeditions",
+      "address": "Calle Santa Catalina 204, Arequipa",
+      "phone": "+51 958 412 307",
+      "website": "https://www.colcaandes.pe",
+      "image": "colca-andes.svg",
+      "membership": 2,
+      "info": "Tour operator offering Colca Canyon treks, condor-watching trips and Misti volcano climbs."
+    },
+    {
+      "name": "Hilos del Sur Alpaca",
+      "address": "Calle Mercaderes 418, Arequipa",
+      "phone": "+51 974 236 581",
+      "website": "https://www.hilosdelsur.pe",
+      "image": "hilos-del-sur.svg",
+      "membership": 2,
+      "info": "Handmade alpaca textiles crafted by artisans from the Arequipa highlands."
+    },
+    {
+      "name": "Cacao Mistiano",
+      "address": "Calle San Francisco 127, Arequipa",
+      "phone": "+51 951 670 248",
+      "website": "https://www.cacaomistiano.pe",
+      "image": "cacao-mistiano.svg",
+      "membership": 1,
+      "info": "Artisan chocolate shop making bean-to-bar chocolate with Peruvian cacao."
+    },
+    {
+      "name": "Casona San Lázaro Hostal",
+      "address": "Calle Rivero 503, San Lázaro, Arequipa",
+      "phone": "(054) 213 874",
+      "website": "https://www.casonasanlazaro.pe",
+      "image": "casona-san-lazaro.svg",
+      "membership": 1,
+      "info": "Boutique hostel in a restored sillar house in the oldest neighborhood of the city."
+    },
+    {
+      "name": "Sillar Tech Solutions",
+      "address": "Av. Ejército 710, Yanahuara, Arequipa",
+      "phone": "(054) 256 930",
+      "website": "https://www.sillartech.pe",
+      "image": "sillar-tech.svg",
+      "membership": 3,
+      "info": "Software and cloud solutions for small and medium-sized businesses in southern Peru."
+    },
+    {
+      "name": "Dulce Arequipa Heladería",
+      "address": "Calle Moral 215, Arequipa",
+      "phone": "+51 963 158 420",
+      "website": "https://www.dulcearequipa.pe",
+      "image": "dulce-arequipa.svg",
+      "membership": 1,
+      "info": "Ice cream parlor famous for its traditional queso helado and seasonal fruit flavors."
+    },
+    {
+      "name": "Chachani Consultores",
+      "address": "Av. Cayma 845, Cayma, Arequipa",
+      "phone": "(054) 271 645",
+      "website": "https://www.chachaniconsultores.pe",
+      "image": "chachani-consultores.svg",
+      "membership": 3,
+      "info": "Business, accounting and tax consulting firm helping local companies grow."
+    },
+    {
+      "name": "Rocoto Verde Market",
+      "address": "Av. Bolognesi 330, Yanahuara, Arequipa",
+      "phone": "+51 942 805 763",
+      "website": "https://www.rocotoverde.pe",
+      "image": "rocoto-verde.svg",
+      "membership": 2,
+      "info": "Organic market selling fresh produce from farms in the Arequipa countryside."
+    }
+  ]
+}

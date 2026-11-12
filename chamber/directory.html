@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Directory | Arequipa Chamber of Commerce</title>
+  <meta name="description"
+    content="Arequipa Chamber of Commerce business directory: find local member businesses in Arequipa, Peru, with their addresses, phone numbers and websites.">
+  <meta name="author" content="Diego Andres Huarsaya Cruz">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <!-- Scripts -->
+  <script src="scripts/app.js" defer></script>
+  <script src="scripts/directory.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="brand">
+        <img src="images/logo.svg" alt="Arequipa Chamber of Commerce logo" width="60" height="60">
+        <span>
+          <span class="brand-name">Arequipa</span>
+          <span class="brand-subtitle">Chamber of Commerce</span>
+        </span>
+      </a>
+      <button id="menu" aria-label="Toggle navigation menu" aria-expanded="false"></button>
+      <nav id="primary-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="directory.html" aria-current="page">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="discover.html">Discover</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="directory-intro">
+      <h1>Business Directory</h1>
+      <p>Explore the businesses that make Arequipa grow. Find contact information for our member companies, from
+        traditional picanterías and alpaca textiles to tourism, technology and consulting firms.</p>
+    </section>
+
+    <div class="view-buttons">
+      <button id="grid" class="active">Grid</button>
+      <button id="list">List</button>
+    </div>
+
+    <div id="members" class="grid"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-contact">
+        <p class="footer-title">Arequipa Chamber of Commerce</p>
+        <address>
+          Calle La Merced 101<br>
+          Arequipa, Peru<br>
+          <a href="tel:+51 987654321">+51 987654321</a><br>
+          <a href="mailto:info@aqpchamber.pe">info@aqpchamber.pe</a>
+        </address>
+      </div>
+
+      <div class="social">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+          <img src="images/facebook.png" alt="Facebook" width="32" height="32">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+          <img src="images/instagram.png" alt="Instagram" width="32" height="32">
+        </a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener">
+          <img src="images/twitter.png" alt="Twitter" width="32" height="32">
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+          <img src="images/linkedin.png" alt="LinkedIn" width="32" height="32">
+        </a>
+      </div>
+
+      <div class="footer-info">
+        <p>WDD 231 - Web Frontend Development I</p>
+        <p>Diego Andres Huarsaya Cruz</p>
+        <p>&copy; <span id="currentyear"></span> Arequipa Chamber of Commerce</p>
+        <p id="lastModified"></p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

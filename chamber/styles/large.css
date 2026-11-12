@@ -1,0 +1,37 @@
+@media screen and (min-width: 1024px) {
+
+  /* ------------------------------------------------------ */
+  /* Header and Navigation */
+  #menu {
+    display: none;
+  }
+
+  #primary-nav {
+    display: block;
+    width: auto;
+  }
+
+  #primary-nav ul {
+    display: flex;
+    gap: 0.5rem;
+    margin: 0;
+  }
+
+  /* ------------------------------------------------------ */
+  /* Directory Page - List view as a table-like row */
+  .list section {
+    display: grid;
+    grid-template-columns: 1.8fr 1.4fr 2fr 1.4fr 2.4fr;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+
+  #members.list section h2 {
+    font-size: 1rem;
+  }
+
+  .list .membership {
+    justify-self: start;
+  }
+}

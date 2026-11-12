@@ -16,6 +16,7 @@
   --gold-color: #E9C46A;
   --silver-color: #D9DDE3;
   --light-color: #E8ECF2;
+  --shadow-color: #00000026; /* black at 15% opacity */
   /* Fonts */
   --main-font: "Montserrat", Arial, sans-serif;
 }
@@ -230,7 +231,7 @@ main {
   background-color: var(--white-color);
   border-top: 5px solid var(--primary-color);
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 8px var(--shadow-color);
 }
 
 .grid .info {
